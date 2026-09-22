@@ -1,13 +1,12 @@
-# The Lantern Vault
+A small endless top-down dungeon crawler made with Pygame.
 
-A small top-down dungeon crawler made with Pygame.
+# To run
+download folder or clone. 
+open dist folder
+open exe file
 
-## Run
 
-```powershell
-python -m pip install -r requirements.txt
-python main.py
-```
+
 
 ## Controls
 
