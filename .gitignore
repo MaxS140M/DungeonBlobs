@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# PyInstaller output (the .exe is attached to GitHub releases instead)
+build/
+dist/
+
+# Per-player / per-computer data, created when the game runs
+src/save_data.json
+src/user_settings.json
+
+# Art program working files (only the exported PNGs are used)
+*.kra
+*~

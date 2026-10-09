@@ -2,10 +2,11 @@
 
 
 a = Analysis(
-    ['main.py'],
+    ['src/main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    # Bundle the images and sounds into the .exe (only the game files, not art-program working files).
+    datas=[('Assets/*.png', 'Assets'), ('Sounds/*.mp3', 'Sounds')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -22,7 +23,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='main',
+    name='DungeonBlobs',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
